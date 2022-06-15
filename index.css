@@ -1,0 +1,193 @@
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #3D3717;
+    margin: 0px;
+}
+
+.nav-header h1 {
+    font-weight: 700;
+    margin: 10px 40px;
+}
+
+.logo {
+    position: absolute;
+    height: 55px;
+    width: 55px;
+    border-radius: 100%;
+    object-fit: cover;
+    object-position: top;
+    margin-left: 40px;
+    border: 2px solid #FFBF1B;
+    top: 52px;
+    left: 25px;
+    
+}
+
+.egg-logo {
+    position: absolute;
+    z-index: -1;
+    top: 15px;
+    left: 25px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid red; */
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.nav-links {
+    /* margin: 20px; */
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin: 10px 20px;
+    /* border: 1px solid red; */
+    
+}
+
+.nav-links a {
+    justify-content: center;
+    margin: 20px;
+    /* text-transform: uppercase; */
+    letter-spacing: 0.1px;
+    text-decoration: none;
+    color:#3D3717;
+    font-weight: 500;
+}
+
+.nav-links a.contact {
+    border-radius: 5px;
+    background-color: #8A760A;
+    color: white;
+    padding: 10px 20px;
+}
+
+.nav-links a.contact:hover, .nav-links a.contact:focus {
+    background-color: #3D3717;
+    color: white;
+}
+
+.nav-links a:hover, .nav-links a:focus {
+    color:#BDA20D;
+}
+
+.intro-text, .supplement-text {
+    font-weight: 600;
+    font-size: 3.5rem;
+}
+
+.text-strong {
+    color: #BDA20D;
+    font-weight: 900;
+}
+
+.text-strong.p{
+    color: #3D3717;
+    font-weight: 700;
+}
+
+.intro-wrapper {
+    display: flex;
+    margin-top: 50px;
+    /* border: 1px solid red; */
+    align-items: flex-start;
+}
+
+
+.main-intro {
+    /* border: 1px solid red; */
+    margin: 0 0 0 200px;
+    width: 50%;
+    
+}
+
+.main-intro p, .why-sub-text, .day-wrapper {
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.animation {
+    display: flex;
+    justify-content: right;
+    /* border: 1px solid red; */
+    margin: 0 100px 0 0;
+}
+
+footer {
+    margin-top: 100px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 0.75rem;
+}
+
+
+.main-intro-why, .daily-post-wrapper {
+    margin: 0 auto;
+    width: 65%;
+    padding-bottom: 80px;
+}
+
+.intro-text-why {
+    margin-top: 0;
+    font-weight: 600;
+    font-size: 2.5rem;
+
+}
+
+.regular-text {
+    line-height: 1.7rem;
+}
+
+.day-wrapper {
+    display: flex;
+    /* border: 1px solid red; */
+    align-items: center;
+    justify-content: space-between;
+}
+
+.daily-post-wrapper {
+    /* background: whitesmoke; */
+    border-radius: 5px;
+    padding: 5px 20px;
+    width: 80%;
+}
+
+.daily-template h1 {
+    margin-top: 0;
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-decoration-line: underline;
+    margin-bottom: 10px;
+}
+
+.daily-template h2 {
+    margin-top: 0;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+.daily-template {
+    width: 25%;
+    margin: 0 20px;
+}
+
+.underline {
+    text-decoration-line: underline;
+}
+
+.post-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-supp {
+    margin: 0 auto;
+    margin-bottom: 400px;
+
+}
